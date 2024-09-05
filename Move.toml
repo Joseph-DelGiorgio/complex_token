@@ -1,0 +1,15 @@
+[package]
+name = "complex_token"
+version = "1.0.0"
+authors = ["Your Name"]
+
+[addresses]
+my_addr = "0xb1f4afa3ba948a570499706b00124653cf54627fcdc421de1517d98f2eeb41f8"
+
+[dev-addresses]
+my_addr = "0xb1f4afa3ba948a570499706b00124653cf54627fcdc421de1517d98f2eeb41f8"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "main" }
+
+[dev-dependencies]
